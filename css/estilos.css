@@ -1,0 +1,61 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	margin: 0px;
+}
+
+.contenido{
+
+	text-align: justify;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+/*-----------------Estilos de footer-----------------*/
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.footer .social [class^="icon-"] {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+}
+
+/*------------------Estilos responsive------------------*/
+
+/*PROFILE*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.logo img{width: 30%;min-width: 250px;}
+html,body,h1,h2,h3,h4,h5 {font-family: "Lato", sans-serif}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-tag {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+.nav{background-color: #00376f; color: #fff;}
+body{background-color: #e5e5e8}

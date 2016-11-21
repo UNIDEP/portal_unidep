@@ -1,0 +1,58 @@
+body{
+	background: #FFFFFA;
+}
+
+header {
+	width: 100%;
+	overflow: hidden;
+	background: #0063BB;
+	margin-bottom: 0px;	
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 0px;
+	overflow: hidden;
+}
+
+header .logo  {
+	color: #f2f2f2;
+	font-size: 50px;
+	float: left;
+	margin-top: 20px;
+	line-height: 100px;
+
+
+}
+
+header nav {	
+	float: right;
+	line-height: 135px;
+}
+
+header nav .icon-user {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+header nav a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	/-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+header nav a:hover {
+	background: #af1818;
+	border-radius: 20px;
+}

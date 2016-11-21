@@ -1,0 +1,38 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	margin-top: 0;
+}
+.bar_izq ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-top: 0;
+	margin-right: 0;
+}
+
+.bar_izq ul li {
+	padding: 10px;
+	position: relative;
+	width: 150px;
+	background-color: #0063BB;
+	border-right: 3px solid #B2B2B2;
+	border-top: 1px solid #ECF0F1;
+	/-webkit-transition: all 500 ms ease;
+	-o-transition: all 500 ms ease;
+	transition: all 500 ms ease;
+}
+.bar_izq ul li:hover {
+	background-color: #6CA7EB;
+}
+
+.bar_izq ul li a{
+	color: #fff;
+	text-decoration: none;
+
+}
+
+span{
+	margin-right: 15px;
+}
